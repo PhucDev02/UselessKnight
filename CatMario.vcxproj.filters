@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Manager Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\GameObjects\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HiddenBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\ResourceManager.h">
+      <Filter>Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\CheckPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameConfigure.h">
+      <Filter>Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GameOverState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GravityBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GameMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Door.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\VictoryState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\SettingState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\AboutState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HowToPlayState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Bot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\CensorBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\GameObjects\Animation.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Player.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CatMario.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Collider.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Platform.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HiddenBlock.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp">
+      <Filter>Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\CheckPoint.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Engine.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Menu.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GravityBlock.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GameMap.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GameOverState.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Door.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\VictoryState.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\SettingState.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\AboutState.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HowToPlayState.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Bot.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\CensorBlock.cpp">
+      <Filter>Header Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
