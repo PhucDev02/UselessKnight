@@ -1,3 +1,6 @@
 # UselessKnight
-The first game I made
-The .tmx file is the map of this game,open it with app Tiled
+Game đầu tiên mình làm bằng C++, gameplay giống với con CatMario :v
+
+
+Sử dụng thư viện SFML, Tiled để làm tilemap
+
